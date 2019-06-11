@@ -1,0 +1,17 @@
+{
+  "name": "pubg-bot",
+  "version": "0.0.1",
+  "description": "A smart PUBG bot for your Discord server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rémi MARION",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "mongoose": "^5.5.0",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0"
+  }
+}
