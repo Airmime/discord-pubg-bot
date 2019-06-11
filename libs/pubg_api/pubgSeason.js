@@ -39,9 +39,13 @@ function getSeasons(platform, callback){
  * @returns Current PUBG season
  */
 exports.getCurrentSeason = function(seasonPlatfom, callback){
-    db.collection('seasons').findOne({'currentSeason': true, 'seasonPlatfom': seasonPlatfom}, function(currentSeasonError, currentSeason) {
-        if(currentSeasonError == null && currentSeason.currentSeason == true){
-            return callback(currentSeasonError, currentSeason);
+    getSeasons(seasonPlatfom, (seasonsError, jsonResponse) => {
+        if (!seasonsError) {
+            jsonResponse.data.forEach(function(s){ 
+                if(s.attributes.isCurrentSeason == true){
+                    return callback(seasonsError, s);
+                }
+            });
         }
     });
 };
