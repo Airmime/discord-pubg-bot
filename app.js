@@ -2,9 +2,6 @@
 var Discord = require('discord.js');
 var client = new Discord.Client();
 
-/* External Modules */
-var cron = require('node-cron');
-
 /* Local Modules */
 var pubgSeason = require('./libs/pubg_api/pubgSeason'); 
 var pubgGame = require('./libs/pubg_api/pubgGame'); 
