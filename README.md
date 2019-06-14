@@ -24,7 +24,7 @@ When the bot is launched, you must invite it to your server, after that, you cou
 
 * **!pubg -help || !pubg -h** : This command details all available commands.
 
-* **!pubg unknownPlayer steam squad-fpp** : To obtain your statistics, you must run the following command: !pubg <PUBG Nickname> <PUBG Platform> <PUBG Game mode>. The following platforms are available: steam, psn, xbox and kakao. The following game modes are available: solo, solo-fpp, duo, duo-fpp, squad, squad-fpp.
+* **!pubg unknownPlayer steam squad-fpp** : To obtain your statistics, you must run the following command: `!pubg <PUBG Nickname> <PUBG Platform> <PUBG Game mode>`. The following platforms are available: steam, psn, xbox and kakao. The following game modes are available: solo, solo-fpp, duo, duo-fpp, squad, squad-fpp.
   
-* **!pubg -game unknownPlayer steam** : To obtain the statistics of the last game, you must run the following command: !pubg -game <PUBG Nickname> <PUBG Platform>. The following platforms are available: steam, psn, xbox and kakao.
+* **!pubg -game unknownPlayer steam** : To obtain the statistics of the last game, you must run the following command: `!pubg -game <PUBG Nickname> <PUBG Platform>`. The following platforms are available: steam, psn, xbox and kakao.
 
