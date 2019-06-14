@@ -11,7 +11,7 @@ First, you have to download and install [nodejs](https://nodejs.org/en/), then, 
 `git clone https://github.com/Airmime/discord-pubg-bot.git`
 
 ## How to configure ?
-To launch the bot, you must configure the file libs/config/config.js by adding your PUBG API key ([How to get my API KEY ?](https://developer.pubg.com/)). After that, you must enter your bot token ([How to create twitch bot ?](https://dev.twitch.tv/), [How to get bot token ? ](https://github.com/Chikachi/DiscordIntegration/wiki/How-to-get-a-token-and-channel-ID-for-Discord )) in the app.js file. 
+To launch the bot, you must configure the file `libs/config/config.js` by adding your PUBG API key ([How to get my API KEY ?](https://developer.pubg.com/)). After that, you must enter your bot token ([How to create twitch bot ?](https://dev.twitch.tv/), [How to get bot token ? ](https://github.com/Chikachi/DiscordIntegration/wiki/How-to-get-a-token-and-channel-ID-for-Discord )) in the `/app.js` file. 
 
 Now, you must download the libraries, and launch your server :
 
