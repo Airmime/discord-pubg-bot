@@ -1,4 +1,4 @@
-# PUBG Discord
+# PUBG Discord bot for game statistics
 A smart PUBG Discord bot, developed with nodejs, that allows you to obtain your game statistics.
 
 ## Node.js Dependencies
